@@ -1,1 +1,21 @@
-# Number-of-days
+Enter Number of days:26
+fine=0
+if(d<=5):
+    fine=d*0.50
+    print("Fine:",float(fine))
+elif(d>5 and d<=10):
+    i=d-5
+    fine=(i*1)+(5*0.5)
+    print("Fine:",float(fine))
+elif(d>10 and d<=30):
+    i=d-10
+    fine=(i*5)+(5*0.5)+(5*1)
+    print("Fine:",float(fine))
+else:
+    i=d-10
+    fine=(i*5)+(5*0.5)+(5*1)
+    print("Your Membership is cancelled")
+    print("Fine amount(Rs):",float(fine))
+
+    OUTPUT:
+Fine: 87.5
